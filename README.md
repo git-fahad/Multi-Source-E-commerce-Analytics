@@ -28,6 +28,10 @@ The platform gathers e-commerce transactional data from a local PostgreSQL datab
 1. **Data Ingestion**:
    - E-commerce transactions are streamed to Kafka topics.
    - Tweets are pulled in real-time from Twitter using Tweepy and sent to Kafka.
+ 
+Below is the high-level architecture flow for the project.
+
+![Flow Diagram](./ecom-x-data.png)
 
 2. **Data Processing**:
    - Both transaction data and tweets are consumed from Kafka.
