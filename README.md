@@ -1,6 +1,6 @@
 # Multi-Source E-commerce Analytics Platform with Real-Time Social Media Sentiment Analysis
 
-This project is a multi-source analytics platform that integrates real-time e-commerce transactional data with social media sentiment analysis. By gathering transactional data and analyzing customer sentiment from Twitter, the platform provides valuable insights into how social trends correlate with sales.
+This project is a multi-source analytics platform that integrates real-time e-commerce transactional data with social media sentiment analysis. By gathering transactional data and analyzing customer sentiment from X, the platform provides valuable insights into how social trends correlate with sales.
 
 ## Table of Contents
 1. [Overview](#overview)
@@ -13,7 +13,7 @@ This project is a multi-source analytics platform that integrates real-time e-co
 8. [Visualization with Grafana](#visualization-with-grafana)
 
 ## Overview
-The platform gathers e-commerce transactional data from a local PostgreSQL database and real-time Twitter data using the `Tweepy` library. The data is processed and integrated to provide insights into how social sentiment (e.g., positive or negative tweets about a product) correlates with sales.
+The platform gathers e-commerce transactional data from a local PostgreSQL database and real-time X data using the `Tweepy` library. The data is processed and integrated to provide insights into how social sentiment (e.g., positive or negative tweets about a product) correlates with sales.
 
 ## Tech Stack
 - **Kafka & Zookeeper**: Data streaming and messaging queue
